@@ -4,10 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { UolComponent } from './uol/uol.component';
+import { UpperDirective } from './upper.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    UolComponent,
+    UpperDirective
   ],
   imports: [
     BrowserModule,
